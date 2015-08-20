@@ -1,7 +1,9 @@
 ### Rick Jones feature
 
 # If you specify a column in a data frame by:
+```{r}
     df["column.name"]
+```
 # it *preserves* the original data structure.
 # But if you specify a column by:
     df[ , "column.name"] 
