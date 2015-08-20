@@ -1,10 +1,12 @@
-### Rick Jones feature
+#### Rick Jones feature
 
-# If you specify a column in a data frame by:
+If you specify a column in a data frame by:  
 ```{r}
     df["column.name"]
-```
-# it *preserves* the original data structure.
-# But if you specify a column by:
+```  
+it *preserves* the original data structure.  
+But if you specify a column by:
+```{r}
     df[ , "column.name"] 
-# it *simplifies* the data structure to the simplest possible data structure that can answer the question.
+```  
+it *simplifies* the data structure to the simplest possible data structure that can answer the question.
