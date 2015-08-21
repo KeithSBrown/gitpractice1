@@ -22,3 +22,12 @@ Applying *apply* in a way that might frustrate Rick
     function(c) sapply(letters , 
     function(d) paste(a, b, c, d, letters, "\n", sep=""))))))
 ```
+
+
+#### from Vicki Garcia
+
+I use this a lot to exclude missing values, which messes up some analyses
+
+```{r}
+df2=df1[complete.cases(df1[,"column.name"]),]
+```
