@@ -31,3 +31,10 @@ The assignment operator can actually work in either direction. Weird.
 	x <- 6 -> y
 ```
 
+#### from Vicki Garcia
+
+I use this a lot to exclude missing values, which messes up some analyses
+
+```{r}
+df2=df1[complete.cases(df1[,"column.name"]),]
+```
