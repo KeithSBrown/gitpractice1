@@ -22,3 +22,12 @@ Applying *apply* in a way that might frustrate Rick
     function(c) sapply(letters , 
     function(d) paste(a, b, c, d, letters, "\n", sep=""))))))
 ```
+
+##### Steve Mortimer
+
+The assignment operator can actually work in either direction. Weird.
+
+```{r weird_assignment_direction}
+	x <- 6 -> y
+```
+
