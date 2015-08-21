@@ -1,4 +1,4 @@
-#### Rick Jones feature
+##### Rick Jones feature
 
 If you specify a column in a data frame by:  
 ```{r}
