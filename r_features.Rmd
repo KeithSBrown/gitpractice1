@@ -10,3 +10,15 @@ But if you specify a column by:
     df[ , "column.name"] 
 ```  
 it *simplifies* the data structure to the simplest possible data structure that can answer the question.
+
+
+##### Patrick Kilduff wuz here
+
+Applying *apply* in a way that might frustrate Rick
+
+```{r}
+   cat(sapply(letters , function(a) sapply(letters , 
+    function(b) sapply(letters , 
+    function(c) sapply(letters , 
+    function(d) paste(a, b, c, d, letters, "\n", sep=""))))))
+```
