@@ -38,3 +38,8 @@ I use this a lot to exclude missing values, which messes up some analyses
 ```{r}
 df2=df1[complete.cases(df1[,"column.name"]),]
 ```
+
+### from Tim Dunbar
+```{r}
+my favorite is the splom command in the lattice library, it's a really good way to see which corellations exist
+```
